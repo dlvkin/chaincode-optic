@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.utsoft.blockchain.support.dao.mapper.IuserInfoMapper">
+
+	<resultMap id="BaseResultMap" type="com.utsoft.blockchain.support.dao.model.UserInfoPo">
+       <id column="userid" jdbcType="BIGINT" property="userid" />
+       <result column="appId" jdbcType="VARCHAR" property="appId" />
+       <result column="secret" jdbcType="VARCHAR" property="secret" />
+       <result column="gmt_create" jdbcType="TIMESTAMP" property="gmtCreate" />
+    </resultMap>
+</mapper>

@@ -1,0 +1,7 @@
+.project
+*.prefs
+*.classpath
+/target/*
+axis-chain-support/target/
+axis-chain-restful/target/
+axis-chain-restful/.settings/org.eclipse.wst.common.project.facet.core.xml
